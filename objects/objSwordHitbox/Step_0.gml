@@ -5,7 +5,7 @@ hit = instance_place(x, y, objBat && objUrsa);
 if (hit != noone)
 	{
 	hit.batHP -= 1;
-	hit.ursaHP -=5;
+	hit.ursaHP -= 5;
 	//instance_destroy ();
 	}
 	

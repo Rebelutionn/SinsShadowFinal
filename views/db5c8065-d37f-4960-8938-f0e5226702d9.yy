@@ -7,7 +7,8 @@
         "b8c5da01-f238-43f4-b538-a32e5c079cd9",
         "74522715-f55f-4393-8429-5d4348caf08d",
         "79fef617-cd6c-4f17-bb2e-8af15801582a",
-        "dff1c7b0-3c0c-4f53-8eaa-d1c7ed9f8dcd"
+        "dff1c7b0-3c0c-4f53-8eaa-d1c7ed9f8dcd",
+        "98a691d0-1c32-4f4f-bb05-fd4535352885"
     ],
     "filterType": "GMSprite",
     "folderName": "HUD&HealthElements",
