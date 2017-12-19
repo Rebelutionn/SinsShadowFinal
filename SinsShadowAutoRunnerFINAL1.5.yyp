@@ -33,7 +33,7 @@
         {
             "Key": "00b429df-d678-4abe-b40b-37cb3f0e5f01",
             "Value": {
-                "id": "cb74fd25-4b50-4985-8c51-3b8cbdf9adcb",
+                "id": "b2c6779d-e857-49ed-a09f-3ff8445d8714",
                 "resourcePath": "rooms\\PendulumTest\\PendulumTest.yy",
                 "resourceType": "GMRoom"
             }
@@ -124,6 +124,14 @@
                 "id": "5ab2f9ba-5223-4d90-95ce-c6b6163f348a",
                 "resourcePath": "sprites\\sprBob1\\sprBob1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1c579530-2f65-45d8-8c5b-d4c525c90713",
+            "Value": {
+                "id": "e7bab64e-5df5-41be-8163-23a62b5e77b0",
+                "resourcePath": "scripts\\scrGrappleTemp\\scrGrappleTemp.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,10 +255,26 @@
             }
         },
         {
+            "Key": "416990c0-ae1b-420a-bf9f-f329fd66412e",
+            "Value": {
+                "id": "d24d5522-93ae-4c31-8c53-cd42414d7181",
+                "resourcePath": "scripts\\scrGrappleDraw\\scrGrappleDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4282c312-0d7d-4f2b-806b-dd76b6211c7f",
             "Value": {
                 "id": "d8e930c6-5db3-4e00-baf5-7b181f734c51",
                 "resourcePath": "objects\\objWinTrig\\objWinTrig.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49ae4994-2808-4cf2-bf1d-6d18e9485a13",
+            "Value": {
+                "id": "b0e1af2e-3f72-4023-933d-63676c00f738",
+                "resourcePath": "objects\\objGPSegment\\objGPSegment.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -377,7 +401,7 @@
         {
             "Key": "72ec2695-8676-4497-87db-0c3371672f88",
             "Value": {
-                "id": "ce3bd33a-bb7c-4f19-bc52-db69ec662c61",
+                "id": "41d3735d-8d3a-448b-b2ed-b03e620bcecd",
                 "resourcePath": "rooms\\VerticalSlice\\VerticalSlice.yy",
                 "resourceType": "GMRoom"
             }
@@ -927,6 +951,14 @@
             }
         },
         {
+            "Key": "f018965e-c72a-4bb1-a51c-6441a071f7c9",
+            "Value": {
+                "id": "1ec6b9f1-a925-4590-8779-91f4cdbf3116",
+                "resourcePath": "objects\\objGPSegment2\\objGPSegment2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f1302321-608f-4f4d-9b01-961f2c67c8ac",
             "Value": {
                 "id": "90b28c4b-ddc3-470a-8a01-cc8b56fe60c7",
@@ -1026,7 +1058,9 @@
     "script_order": [
         "02eb2643-4ff9-4fd0-8da7-880aba6dae7b",
         "9cc87eeb-dc0b-4f43-8cb7-cd3d162f598d",
-        "a793d478-1aa1-4065-adb7-da2a443ba975"
+        "a793d478-1aa1-4065-adb7-da2a443ba975",
+        "1c579530-2f65-45d8-8c5b-d4c525c90713",
+        "416990c0-ae1b-420a-bf9f-f329fd66412e"
     ],
     "tutorial": ""
 }
