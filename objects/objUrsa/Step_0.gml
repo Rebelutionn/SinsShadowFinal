@@ -75,6 +75,7 @@ if sprite_index == sprUrsaAttack && image_index > 5.5
 {
 	bAttacking = false;
 	sprite_index = sprUrsaWalk;
+
 }
 
 /*
@@ -87,12 +88,13 @@ if sprite_index == sprUrsaAttack
 
 //Ursa taking damage and dying
 hit = instance_place (x, y, objSwordHitbox);
+col = make_color_rgb(92, 130, 81);
 
 if (hit != noone)
 	{
 	ursaHP -= 5; //BREAKING GAME
 	audio_play_sound(sndSliceAttack, 5, false);
-	effect_create_above(ef_explosion, x, y-1, 0.3, c_purple);
+	effect_create_above(ef_star, x, y-25, 2, col);
 	//instance_destroy ();
 	}
 	
@@ -101,10 +103,9 @@ if(ursaHP <=0)
 		lootDrop = random(100)
 		if(lootDrop >= 70)
 		{
-			instance_create_layer(x,y,"Player",objHealthPickUp);
+			instance_create_layer(x,y,"Player",objBigAssHealthPickUp);
 		}
 		instance_destroy();  
 	} 
 
 
-	
