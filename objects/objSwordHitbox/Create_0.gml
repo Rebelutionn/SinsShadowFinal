@@ -1,0 +1,2 @@
+// Variables // 
+ursaHP = 500; 

@@ -66,21 +66,23 @@ hit = instance_place (x, y, objSwordHitbox);
 
 if (hit != noone)
 	{
-	batHP -= 1; //BREAKING GAME
 	audio_play_sound(sndSliceAttack, 5, false);
 	effect_create_above(ef_explosion, x, y-1, 0.3, c_purple);
-	//instance_destroy ();
+	lootDrop = random(100)
+	if(lootDrop >= 70)
+	{
+		instance_create_layer(x,y,"Player",objHealthPickUp);
 	}
-	
+	instance_destroy(); 
+	}
+
+/* Bat dies in ONE HIT OKAY 	
 if(batHP <=0)
 	{					   
-		lootDrop = random(100)
-		if(lootDrop >= 70)
-		{
-			instance_create_layer(x,y,"Player",objHealthPickUp);
-		}
-		instance_destroy();  
+		
+		
 	} 
+	*/
 	
 // This makese the Bat flip when it switches it's position // 
 if (x < iPrevFrameX)
