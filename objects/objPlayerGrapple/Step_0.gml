@@ -3,6 +3,7 @@
 scrAttack();
 scrGrappleTemp();
 scrPlayerMovement();
+
 /// The grapple was broken because it was being called here, 
 // I guess..? I deleted it here and called the script, and now 
 // it works. Hooray

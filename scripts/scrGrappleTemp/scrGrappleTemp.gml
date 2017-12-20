@@ -35,11 +35,11 @@ if(bGrappling == true) && objPlayerGrapple.x > instNearestGP.x
 	}
 }
 
-iGPSegment1x = ((instNearestGP.x - x)/2) + x;
-iGPSegment1y = ((instNearestGP.y - y)/2) + y;
+iGPSegment1x = ((instNearestGP.x - x)/1.5) + x;
+iGPSegment1y = ((instNearestGP.y - y)/1.5) + y;
 
-iGPSegment2x = ((instNearestGP.x - x)/2) + objPlayerGrapple.x;
-iGPSegment2y = ((instNearestGP.y - y)/2) + objPlayerGrapple.y;
+iGPSegment2x = ((instNearestGP.x - x)/4) + x;
+iGPSegment2y = ((instNearestGP.y - y)/4) + y;
 distNearestGP = distance_to_object(instNearestGP);
 
 //dirNearestGP = point_direction(x, y, instNearestGP.x, instNearestGP.y);

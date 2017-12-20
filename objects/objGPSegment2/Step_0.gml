@@ -1,15 +1,16 @@
-/// Get this to work without the "repeat" function below first
-// get the Rope to connect to APH, and THEN we add in the chain links
+/// GP SEG 2 /// 
+// Needs a Rope between itself and GP Seg 1, AND Amelia // 
+// this is first in line of the Segments, even though the White Ball is drawn in the wrong spot //
 
 if objPlayerGrapple.bGrappling
 {
 	if bGPDrawDoOnce == false
 	{
 		bGPDrawDoOnce = true;
-		ropeSeg2 = physics_joint_rope_create(self, objPlayerGrapple.instNearestGP, x, y, objPlayerGrapple.instNearestGP.x, objPlayerGrapple.instNearestGP.y, objPlayerGrapple.distNearestGP/8, false);
-		physics_joint_set_value(ropeSeg2, 150, objPlayerGrapple.distNearestGP/2);
-		ropeSeg1 = physics_joint_rope_create(objPlayerGrapple, self, objPlayerGrapple.x, objPlayerGrapple.y, x, y, objPlayerGrapple.distNearestGP, false);
-		physics_joint_set_value(ropeSeg1, 150, objPlayerGrapple.distNearestGP/2);
+		ropeSeg2 = physics_joint_rope_create(self, objPlayerGrapple, x, y, objPlayerGrapple.x, objPlayerGrapple.y, objPlayerGrapple.distNearestGP/4, false);
+		physics_joint_set_value(ropeSeg2, 150, objPlayerGrapple.distNearestGP/4);
+		ropeSeg1 = physics_joint_rope_create(objGPSegment, self, objGPSegment.x, objGPSegment.y, x, y, objPlayerGrapple.distNearestGP/2, false);
+		physics_joint_set_value(ropeSeg1, 150, objPlayerGrapple.distNearestGP/4);
 	}
 }
 if !objPlayerGrapple.bGrappling
