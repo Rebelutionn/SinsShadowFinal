@@ -33,7 +33,7 @@
         {
             "Key": "00b429df-d678-4abe-b40b-37cb3f0e5f01",
             "Value": {
-                "id": "cb74fd25-4b50-4985-8c51-3b8cbdf9adcb",
+                "id": "b2c6779d-e857-49ed-a09f-3ff8445d8714",
                 "resourcePath": "rooms\\PendulumTest\\PendulumTest.yy",
                 "resourceType": "GMRoom"
             }
@@ -124,6 +124,14 @@
                 "id": "5ab2f9ba-5223-4d90-95ce-c6b6163f348a",
                 "resourcePath": "sprites\\sprBob1\\sprBob1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1c579530-2f65-45d8-8c5b-d4c525c90713",
+            "Value": {
+                "id": "e7bab64e-5df5-41be-8163-23a62b5e77b0",
+                "resourcePath": "scripts\\scrGrappleTemp\\scrGrappleTemp.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "416990c0-ae1b-420a-bf9f-f329fd66412e",
+            "Value": {
+                "id": "d24d5522-93ae-4c31-8c53-cd42414d7181",
+                "resourcePath": "scripts\\scrGrappleDraw\\scrGrappleDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4282c312-0d7d-4f2b-806b-dd76b6211c7f",
             "Value": {
                 "id": "d8e930c6-5db3-4e00-baf5-7b181f734c51",
@@ -255,10 +271,10 @@
             }
         },
         {
-            "Key": "45f16c21-45f4-4796-a0f1-563befd8b188",
+            "Key": "49ae4994-2808-4cf2-bf1d-6d18e9485a13",
             "Value": {
-                "id": "f05824ba-ef8a-45c3-9221-983230a9f800",
-                "resourcePath": "objects\\objBigAssHealthPickUp\\objBigAssHealthPickUp.yy",
+                "id": "b0e1af2e-3f72-4023-933d-63676c00f738",
+                "resourcePath": "objects\\objGPSegment\\objGPSegment.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -276,6 +292,14 @@
                 "id": "d76384fa-6abc-4cd2-a655-929af0f613f8",
                 "resourcePath": "rooms\\rmWinScreen\\rmWinScreen.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "52ac14c7-e642-481c-be21-4ed39c4cac5c",
+            "Value": {
+                "id": "49384466-e84b-4aac-a454-6d3f84424a84",
+                "resourcePath": "sprites\\sprFarMountains\\sprFarMountains.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -385,7 +409,7 @@
         {
             "Key": "72ec2695-8676-4497-87db-0c3371672f88",
             "Value": {
-                "id": "ce3bd33a-bb7c-4f19-bc52-db69ec662c61",
+                "id": "41d3735d-8d3a-448b-b2ed-b03e620bcecd",
                 "resourcePath": "rooms\\VerticalSlice\\VerticalSlice.yy",
                 "resourceType": "GMRoom"
             }
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "87024037-30e5-4313-8b43-cfa80570bb16",
+            "Value": {
+                "id": "231bb7a9-ee76-4393-a880-d693d7b325eb",
+                "resourcePath": "sprites\\sprDarkRedSky\\sprDarkRedSky.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d2b1d0b-87c1-44cb-8cee-bb521b7a171a",
             "Value": {
                 "id": "af24fa9e-079d-462e-a7dc-3b6e811db4d0",
@@ -516,14 +548,6 @@
                 "id": "01cc75b6-74b5-409a-94b3-081f1359db62",
                 "resourcePath": "objects\\objRope\\objRope.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "98a691d0-1c32-4f4f-bb05-fd4535352885",
-            "Value": {
-                "id": "9765c1e8-8597-4a9a-abed-c2d27549c4b4",
-                "resourcePath": "sprites\\sprBigAssHealthPickUp\\sprBigAssHealthPickUp.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "ad132db6-8d70-4bcc-a297-700b2f9595ac",
+            "Value": {
+                "id": "19d74374-9a42-42c0-922c-ffbbdd723e47",
+                "resourcePath": "sprites\\sprGravelFar\\sprGravelFar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "adb8cd5b-325d-4e46-aae9-6880ddb9bc39",
             "Value": {
                 "id": "293bb2cb-d465-486a-a609-b69040cc04d3",
@@ -683,6 +715,14 @@
             "Value": {
                 "id": "cd0380c8-2b55-4310-aeee-f783bd716227",
                 "resourcePath": "sprites\\sprSaeSplash\\sprSaeSplash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6ca395a-80fe-41f3-a8ad-35b4b95e3b35",
+            "Value": {
+                "id": "3c8dbe33-c49d-4f49-b5e6-17d0a9b736f6",
+                "resourcePath": "sprites\\sprGravelClose\\sprGravelClose.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -943,6 +983,14 @@
             }
         },
         {
+            "Key": "f018965e-c72a-4bb1-a51c-6441a071f7c9",
+            "Value": {
+                "id": "1ec6b9f1-a925-4590-8779-91f4cdbf3116",
+                "resourcePath": "objects\\objGPSegment2\\objGPSegment2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f1302321-608f-4f4d-9b01-961f2c67c8ac",
             "Value": {
                 "id": "90b28c4b-ddc3-470a-8a01-cc8b56fe60c7",
@@ -972,6 +1020,14 @@
                 "id": "e3991f87-4301-4151-bbd2-12a902a5e4b9",
                 "resourcePath": "views\\f5f43bc8-b3a7-4818-a73c-e9f766e49823.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6df57b9-35d6-43d6-a359-cb6700f21950",
+            "Value": {
+                "id": "233ae4b3-9ffd-4027-b28b-0f80b03fbc0c",
+                "resourcePath": "sprites\\sprMountainBackgrounds\\sprMountainBackgrounds.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1042,7 +1098,9 @@
     "script_order": [
         "02eb2643-4ff9-4fd0-8da7-880aba6dae7b",
         "9cc87eeb-dc0b-4f43-8cb7-cd3d162f598d",
-        "a793d478-1aa1-4065-adb7-da2a443ba975"
+        "a793d478-1aa1-4065-adb7-da2a443ba975",
+        "1c579530-2f65-45d8-8c5b-d4c525c90713",
+        "416990c0-ae1b-420a-bf9f-f329fd66412e"
     ],
     "tutorial": ""
 }

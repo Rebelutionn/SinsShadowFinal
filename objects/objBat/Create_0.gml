@@ -7,8 +7,6 @@ hit = 0;
 hspeed = 0;
 vspeed = 0; 
 
-batHP = 5; 
-
 // Bat's Pathing && Speed
 bBatDebugMode = 1;
 bContinuePath = 1;

@@ -49,6 +49,7 @@ else
 	instance_destroy(objSwordHitbox);
 }
 */
+
 if !bFacingRight && image_index >= 3 && bAttacking
 {
 	instance_create_layer((x-50),y,"Player",objSwordHitbox);

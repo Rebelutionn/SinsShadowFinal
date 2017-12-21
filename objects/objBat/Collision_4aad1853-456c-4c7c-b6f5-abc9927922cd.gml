@@ -1,3 +1,3 @@
 /// COLLISION WITH HITBOX
 
-instance_destroy();
+//instance_destroy();

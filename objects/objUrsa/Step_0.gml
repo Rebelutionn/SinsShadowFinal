@@ -88,14 +88,14 @@ if sprite_index == sprUrsaAttack
 
 //Ursa taking damage and dying
 hit = instance_place (x, y, objSwordHitbox);
-col = make_color_rgb(92, 130, 81);
+col = make_color_rgb(92, 130, 81); // Particle Effect for death 
 
 if (hit != noone)
 	{
-	ursaHP -= 5; //BREAKING GAME
-	audio_play_sound(sndSliceAttack, 5, false);
-	effect_create_above(ef_star, x, y-25, 2, col);
-	//instance_destroy ();
+		hit.ursaHP -= 5; //BREAKING GAME
+		audio_play_sound(sndSliceAttack, 5, false);
+		effect_create_above(ef_explosion, x, y-10, 5, c_purple);
+		//instance_destroy ();
 	}
 	
 if(ursaHP <=0)
