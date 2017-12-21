@@ -16,7 +16,13 @@
         "fc76df27-f91b-47ea-b5b6-72ed8ef75ae6",
         "855604c7-f988-4513-b052-f6d95b02668d",
         "ac05599f-660e-4e39-a189-338c29d6c33b",
-        "e47106f6-639a-417a-b93a-0ea221083497"
+        "e47106f6-639a-417a-b93a-0ea221083497",
+        "f6df57b9-35d6-43d6-a359-cb6700f21950",
+        "52ac14c7-e642-481c-be21-4ed39c4cac5c",
+        "87024037-30e5-4313-8b43-cfa80570bb16",
+        "cebe23fe-c397-4bc1-ad16-414995d0be4b",
+        "ad132db6-8d70-4bcc-a297-700b2f9595ac",
+        "b6ca395a-80fe-41f3-a8ad-35b4b95e3b35"
     ],
     "filterType": "GMSprite",
     "folderName": "MapElements",

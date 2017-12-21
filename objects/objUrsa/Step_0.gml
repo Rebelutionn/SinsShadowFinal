@@ -94,7 +94,7 @@ if (hit != noone)
 	{
 		hit.ursaHP -= 5; //BREAKING GAME
 		audio_play_sound(sndSliceAttack, 5, false);
-		effect_create_above(ef_star, x, y-25, 2, col);
+		effect_create_above(ef_explosion, x, y-10, 5, c_purple);
 		//instance_destroy ();
 	}
 	

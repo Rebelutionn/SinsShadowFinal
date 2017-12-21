@@ -7,9 +7,11 @@ if objPlayerGrapple.bGrappling
 	if bGPDrawDoOnce == false
 	{
 		bGPDrawDoOnce = true;
+		// Creates a rope joint between Seg2(self) and Player
 		ropeSeg2 = physics_joint_rope_create(self, objPlayerGrapple, x, y, objPlayerGrapple.x, objPlayerGrapple.y, objPlayerGrapple.distNearestGP/4, false);
 		physics_joint_set_value(ropeSeg2, 150, objPlayerGrapple.distNearestGP/4);
-		ropeSeg1 = physics_joint_rope_create(objGPSegment, self, objGPSegment.x, objGPSegment.y, x, y, objPlayerGrapple.distNearestGP/2, false);
+		// Creates a rope joint between Seg2(self) and Seg1 
+		ropeSeg1 = physics_joint_rope_create(self, objGPSegment, x, y, objGPSegment.x, objGPSegment.y, objPlayerGrapple.distNearestGP/2, false);
 		physics_joint_set_value(ropeSeg1, 150, objPlayerGrapple.distNearestGP/4);
 	}
 }

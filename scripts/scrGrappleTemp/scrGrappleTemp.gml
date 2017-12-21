@@ -35,9 +35,11 @@ if(bGrappling == true) && objPlayerGrapple.x > instNearestGP.x
 	}
 }
 
+// This places Segment 1 right below GP
 iGPSegment1x = ((instNearestGP.x - x)/1.5) + x;
 iGPSegment1y = ((instNearestGP.y - y)/1.5) + y;
 
+// This places Segment 2 right above Player
 iGPSegment2x = ((instNearestGP.x - x)/4) + x;
 iGPSegment2y = ((instNearestGP.y - y)/4) + y;
 distNearestGP = distance_to_object(instNearestGP);

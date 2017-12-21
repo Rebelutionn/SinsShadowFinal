@@ -46,7 +46,7 @@
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "ac05599f-660e-4e39-a189-338c29d6c33b",
-            "blendMode": 0,
+            "blendMode": 1,
             "isLocked": false,
             "name": "default",
             "opacity": 100,

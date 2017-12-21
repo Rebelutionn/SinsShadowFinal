@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "52ac14c7-e642-481c-be21-4ed39c4cac5c",
+            "Value": {
+                "id": "49384466-e84b-4aac-a454-6d3f84424a84",
+                "resourcePath": "sprites\\sprFarMountains\\sprFarMountains.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "52e3f319-851e-47b1-ac28-218565ca69e5",
             "Value": {
                 "id": "1423ff9f-dc0f-4040-a3df-f74b2527fd6a",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "87024037-30e5-4313-8b43-cfa80570bb16",
+            "Value": {
+                "id": "231bb7a9-ee76-4393-a880-d693d7b325eb",
+                "resourcePath": "sprites\\sprDarkRedSky\\sprDarkRedSky.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d2b1d0b-87c1-44cb-8cee-bb521b7a171a",
             "Value": {
                 "id": "af24fa9e-079d-462e-a7dc-3b6e811db4d0",
@@ -663,6 +679,14 @@
             }
         },
         {
+            "Key": "ad132db6-8d70-4bcc-a297-700b2f9595ac",
+            "Value": {
+                "id": "19d74374-9a42-42c0-922c-ffbbdd723e47",
+                "resourcePath": "sprites\\sprGravelFar\\sprGravelFar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "adb8cd5b-325d-4e46-aae9-6880ddb9bc39",
             "Value": {
                 "id": "293bb2cb-d465-486a-a609-b69040cc04d3",
@@ -691,6 +715,14 @@
             "Value": {
                 "id": "cd0380c8-2b55-4310-aeee-f783bd716227",
                 "resourcePath": "sprites\\sprSaeSplash\\sprSaeSplash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6ca395a-80fe-41f3-a8ad-35b4b95e3b35",
+            "Value": {
+                "id": "3c8dbe33-c49d-4f49-b5e6-17d0a9b736f6",
+                "resourcePath": "sprites\\sprGravelClose\\sprGravelClose.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -988,6 +1020,14 @@
                 "id": "e3991f87-4301-4151-bbd2-12a902a5e4b9",
                 "resourcePath": "views\\f5f43bc8-b3a7-4818-a73c-e9f766e49823.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6df57b9-35d6-43d6-a359-cb6700f21950",
+            "Value": {
+                "id": "233ae4b3-9ffd-4027-b28b-0f80b03fbc0c",
+                "resourcePath": "sprites\\sprMountainBackgrounds\\sprMountainBackgrounds.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
